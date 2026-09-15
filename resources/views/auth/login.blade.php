@@ -1,4 +1,4 @@
-﻿<x-guest-layout>
+<x-guest-layout>
     <div class="bg-[#0e1628]/90 backdrop-blur-xl border border-slate-800 rounded-3xl p-8 sm:p-10 shadow-2xl text-center space-y-7">
         <!-- Logo Dimak -->
         <div class="flex flex-col items-center justify-center space-y-3">

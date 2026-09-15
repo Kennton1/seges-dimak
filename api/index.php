@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 // Preparar entorno serverless para Vercel
 if (!file_exists("/tmp/views")) {
     @mkdir("/tmp/views", 0777, true);
