@@ -16,7 +16,7 @@ return new class extends Migration
             $table->morphs('lockable');
             $table->foreignId('user_id')->constrained()->cascadeOnDelete();
             $table->timestamp('locked_at')->useCurrent();
-            $table->timestamp('expires_at');
+            $table->timestamp('expires_at')->nullable();
             $table->timestamps();
 
             // Evitar que haya más de un bloqueo activo por recurso
